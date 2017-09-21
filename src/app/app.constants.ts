@@ -1,5 +1,5 @@
 export class NeoWikiConstants {
     
-    public static get BASE_TEMPLATE_PATH(): string { return 'SamSafahi.github.io'; }
+    public static get BASE_TEMPLATE_PATH(): string { return ''; }
 
 }

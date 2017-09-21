@@ -14,10 +14,16 @@ New page : Support Page where people can read about problems in the past, see FA
 
 
 - [x] Make basic layout
-- [ ] Add NEO price chart to home page
+- [x] Add NEO price chart to price page
 - [ ] Polish up and add more content to home page
 - [ ] Finish Community Art page layout
 - [ ] Polish it up and make it look decent
-- [ ] Make News page either by using twitter lists or another method (I.e. Pull from Neonewstoday website)
+- [x] Make News page either by using twitter lists or another method (I.e. Pull from Neonewstoday website)
+Half done
 - [ ] Make support page and FAQ questions and answers
 - [ ] Add a way to contact us for support and we'll reply back (Using email)
+- [ ] Add a blockchain explorer
+- [ ] Add NEOtoGAS
+- [ ] Add new nav bar
+- [ ] Make logo 
+- [ ] Major bug fix

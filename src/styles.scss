@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+//@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.clearfix:before, .clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+// Custom Font
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-BoldItalic.ttf");
+    font-style: italic, oblique;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-ExtraBold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-ExtraBoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-LightItalic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-SemiBold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/assets/fonts/OpenSans-SemiBoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}

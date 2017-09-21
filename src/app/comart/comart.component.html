@@ -1,0 +1,14 @@
+<section class="main-container">
+    <div>
+        <h2>Community Art</h2>
+        <h3>All art made by the NEO community</h3>
+    </div>
+    <div class="comarts">
+        <div *ngFor="let comart of comArtList">
+            <img src="{{ comart.src }}" alt="{{ comart.name }}">
+            <p>{{ comart.name }}</p>
+            <p>{{ comart.author }}</p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</section>

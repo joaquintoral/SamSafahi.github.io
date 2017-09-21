@@ -1,0 +1,10 @@
+.main {
+    margin: 0 auto;
+    width: 960px;
+    display: table;
+    height: 100%;
+
+    app-footer {
+        display: table-footer-group;
+    }
+}

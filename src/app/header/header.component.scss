@@ -1,0 +1,44 @@
+header {
+    color: #0DBE00;
+    .contents {    
+
+        > div {
+            &.lc-float-left {
+                float: left;
+                h1 {
+                    margin-top: 5px;
+
+                    img {            
+                        width: 50px;
+                        vertical-align: -13px;
+                    }
+                }
+            }   
+
+            &.lc-float-right {
+                float: right;
+
+                > div {
+                    ul {
+                        list-style: none;
+
+                        > li {    
+                            display: inline-block;
+                            vertical-align: -17px;
+                            font-weight: bold;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    a:link,
+    a:visited {
+        color: #0DBE00;
+        text-decoration: none;
+    }
+    //a:hover - a link when the user mouses over it
+    //a:active - a link the moment it is clicked
+}

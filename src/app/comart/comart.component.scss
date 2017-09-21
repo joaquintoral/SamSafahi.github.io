@@ -1,0 +1,27 @@
+section.main-container {
+    > div:first-child {
+        margin: 40px 0;
+        h2,h3 {
+            text-align: center;
+        }
+        
+        h2 {
+            margin-bottom: 20px;
+        }
+    }
+    div.comarts {
+        > div {
+            float: left;
+            width: 33%;
+
+            > img {    
+                max-width: 100%;
+                padding: 30px 5% 0;
+            }
+            
+            > p {
+                text-align: center;
+            }
+        }
+    }
+}

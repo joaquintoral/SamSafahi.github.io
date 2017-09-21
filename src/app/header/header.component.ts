@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NeoWikiConstants } from '../app.constants';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+    baseUrl = NeoWikiConstants.BASE_TEMPLATE_PATH;
+    
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }

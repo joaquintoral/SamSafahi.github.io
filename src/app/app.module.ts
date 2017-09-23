@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ComartComponent } from './comart/comart.component';
 
 import { ComartService } from './services/comart.service';
+import { WalletComponent } from './wallet/wallet.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ComartService } from './services/comart.service';
     DashboardComponent,
     HeaderComponent,
     FooterComponent,
-    ComartComponent
+    ComartComponent,
+    WalletComponent
   ],
   imports: [
     BrowserModule,

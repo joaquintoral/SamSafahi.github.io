@@ -1,0 +1,56 @@
+.main-content {
+    margin-top: 30px;
+
+    >div {
+        .box {
+            margin-bottom: 30px;
+
+            > div.title {
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .left-content {
+        width: 70%;
+        float: left;
+
+        
+        .box {
+            .box-content {
+                ul {
+                    li {
+                        margin-bottom: 10px;
+                        margin-left: 20px;
+
+                        p:first-child {
+                            margin-bottom: 5px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .right-content {
+        width: 30%;
+        float: left;
+
+        div {
+            h3 {
+                text-align: center;
+            }
+        }
+
+        .box {
+            .box-content {
+                ul {
+                    margin-left: 30px;
+                    li {
+
+                    }
+                }
+            }
+        }
+    }
+}
